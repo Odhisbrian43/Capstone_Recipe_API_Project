@@ -1,0 +1,18 @@
+{% extends "recipe/base.html" %}
+
+{% block content %}
+  <h1>Title: {{ recipe.title }}</h1>
+
+  <p><strong>Author:</strong> {{ recipe.author }}</p>
+  <p><strong>Category:</strong> {{ recipe.category }}</p>
+  <p><strong>Servings:</strong> {{ recipe.servings }}</p>
+  <p><strong>Description:</strong> {{ recipe.description }}</p>
+  <p><strong>Ingredients:</strong> {{ recipe.ingredients}}</p>
+  <p><strong>Instructions:</strong> {{ recipe.instructions}}</p>
+  <p><strong>Preperation Time:</strong> {{ recipe.preparation_time}}</p>
+  <p><strong>Cooking Time:</strong> {{ recipe.cooking_time}}</p>
+  <p><strong>Date Created:</strong> {{ recipe.created_date}}</p>
+
+
+  <div style="margin-left:20px;margin-top:20px">
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "recipe/base.html" %}
+
+{% block content %}
+  <h1>Recipe Library Home</h1>
+  <p>
+    Welcome to RecipeLibrary, a website developed by
+    <em>Brian Developer Guru</em>!
+  </p>
+  <h2>Dynamic content</h2>
+  <p>The recipe library has the following record counts:</p>
+  <ul>
+    <li><strong>All recipes:</strong> {{ recipes }}</li>
+    <li><strong>Authors:</strong> {{ authors }}</li>
+  </ul>
+{% endblock %}
