@@ -18,6 +18,7 @@ The project is using a locally hosted mysql database named recipedb.
 The recipe app added to the settings file under installed apps.
 
 This project consists of two apps namely:
+
 i. Accounts:This is user management api with main fuctions of registering new users, logging in users and logging out users.
 
 ii. Recipe app: This is a recipe management api that allows users to view published recipes,create new recipes, update recipes and delete recipes.
